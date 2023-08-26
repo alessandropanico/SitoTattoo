@@ -227,6 +227,17 @@ hr {
   font-size: 20px;
 }
 
+#scrollDiv {
+  background-color: rgb(204, 255, 0);
+  width: 1000px;
+  height: 600px;
+  margin-right: 2px;
+  margin-left: 2px;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+
 .immagineGialla {
   width: 1000px;
   height: 600px;
