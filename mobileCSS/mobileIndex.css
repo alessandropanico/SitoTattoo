@@ -13,7 +13,7 @@
   
     /* Riduci la dimensione del testo di benvenuto */
     .benvenuto {
-      font-size: 30px;
+      font-size: 20px;
     }
   
     /* Riduci le dimensioni del blocco viola */
@@ -24,6 +24,7 @@
   
     /* Riduci la dimensione del testo all'interno del blocco viola */
     .nelviola {
+      padding: 20px;
       font-size: 18px;
     }
 
@@ -41,7 +42,7 @@
     /* Riduci la dimensione dell'immagine Makima */
     .makima {
       height: 350px;
-      right: -10px;
+      right: -50px;
     }
   
     /* Riduci la dimensione del testo "UN AMANTE DELLO STILE MANGA" */
