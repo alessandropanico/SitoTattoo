@@ -1,0 +1,58 @@
+/* Aggiungi questo CSS per dispositivi mobili */
+@media screen and (max-width: 768px) {
+    /* Riduci le dimensioni del logo */
+    #logo {
+      width: 80px;
+      margin-left: 10px;
+    }
+  
+    /* Riduci le dimensioni dei link nella navbar */
+    nav a {
+      font-size: 14px;
+    }
+  
+    /* Riduci la dimensione del testo di benvenuto */
+    .benvenuto {
+      font-size: 36px;
+    }
+  
+    /* Riduci le dimensioni del blocco viola */
+    .viola {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    /* Riduci la dimensione del testo all'interno del blocco viola */
+    .nelviola {
+      font-size: 14px;
+    }
+  
+    /* Riduci la dimensione dell'immagine gialla */
+    .immagineGialla {
+      width: 100%;
+    }
+  
+    /* Riduci la dimensione dell'immagine Makima */
+    .makima {
+      height: 250px;
+      right: -50px;
+    }
+  
+    /* Riduci la dimensione del testo "UN AMANTE DELLO STILE MANGA" */
+    #stileManga {
+      font-size: 24px;
+    }
+  
+    /* Riduci la dimensione del testo "Se sei un amante di questo stile..." */
+    #testoManga {
+      font-size: 16px;
+      margin: 10px;
+    }
+  
+    /* Riduci la dimensione del pulsante "CHI SONO" */
+    .btn-toolset {
+      font-size: 16px;
+      padding: 12px 40px;
+    }
+  }
+  

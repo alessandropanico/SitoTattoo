@@ -1,0 +1,265 @@
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+nav {
+  background-color: white;
+}
+
+li {
+  padding: 10px;
+  margin-left: 0;
+  padding-left: 50px;
+
+}
+
+ul li {
+  margin-right: 50px;
+}
+
+ul li:last-child {
+  margin-right: 0;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  font-family: 'Gruppo', sans-serif;
+  /* font-family: 'Russo One', sans-serif; */
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: red
+}
+
+.active {
+  color: red;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -10;
+  filter: brightness(0.5);
+
+}
+
+#image-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#image-container img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 10px;
+}
+
+/*NAVBAR*/
+.custom-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  transition: opacity 0.7s;
+  opacity: 1;
+  z-index: 9999;
+}
+
+#custom-navbar.scrolled {
+  opacity: 0;
+  /* Imposta l'opacità a 0 quando si scende nella pagina */
+}
+
+/* Stile aggiunto per la classe "disabled-pointer" */
+#custom-navbar.disabled-pointer {
+  pointer-events: none;
+}
+
+
+.custom-navbar.scrolled {
+  opacity: 0;
+}
+
+/* CSS */
+.custom-navbar.disabled {
+  opacity: 0;
+  pointer-events: none;
+  /* Imposta l'opacità a 0 e disabilita gli eventi */
+}
+
+.disabled-pointer {
+  cursor: default;
+}
+
+/*----------------------------------------------*/
+
+#image-container {
+  margin-top: 200px;
+  /* Aggiungi spazio sopra per evitare sovrapposizione con la navbar */
+}
+
+
+.form-container {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.form-control {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #d2e051;
+}
+
+.btn-toolset {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  color: #FFFFFF;
+  text-decoration: none;
+  line-height: 1.2;
+  font-weight: normal;
+  font-family: 'Russo One', sans-serif;
+  font-size: 25px;
+  background-color: rgb(224, 34, 113);
+  border-radius: 50px;
+  padding: 25px 90px;
+  border: 5px solid rgb(224, 34, 113);
+  cursor: pointer;
+  transition: background-color 0.7s ease;
+  /* Aggiunta della transizione */
+}
+
+.btn-toolset:hover {
+  background-color: #000000;
+}
+
+
+/* .background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  background-image: 
+  url('https://rare-gallery.com/uploads/posts/401767-animegirl-wallpaper.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+
+
+/* .img-thumbnail.enlarged {
+  width: 200px; 
+  height: 200px;
+}  */
+
+
+#logo {
+  width: 150px;
+  margin-left: 30px;
+  margin-top: 20px;
+  padding: 0px;
+}
+
+.insta {
+  width: 45px;
+  margin-right: 30px;
+  margin-top: 20px;
+  float: right;
+  padding: 0px;
+}
+
+/*ALTRI ELEMENTI DELL'INDEX CSS*/
+
+.benvenuto {
+  font-family: Russo one;
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+}
+
+
+.viola {
+  background-color: rgb(177, 85, 203);
+  width: 700px;
+  height: 300px;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.nelviola {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.immagineGialla {
+  width: 1000px;
+  height: 600px;
+  margin-right: 2px;
+  margin-left: 2px;
+  z-index: -10;
+  opacity: 70%;
+  position: absolute;
+}
+
+
+.makima {
+  height: 550px;
+  position: absolute;
+  right: -400px;
+  top: 20px;
+  opacity: 50%;
+  z-index: -1;
+}
+
+#stileManga {
+  margin-top: 100px;
+  font-size: 50px;
+  color: black;
+  font-family: 'Gasoek One', sans-serif;
+  text-align: center;
+}
+
+#testoManga {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 30px;
+  color: black;
+  word-wrap: break-word;
+}

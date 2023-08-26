@@ -1,0 +1,46 @@
+/*QUESTO E' IL RIQUADRO ROSA!*/
+.box {
+  background-color: rgb(224, 34, 113);
+  width: 700;
+  font-size: 100px;
+  font-family: Gasoek One;
+  color: white;
+  height: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* Posizionamento relativo per sovrapporre l'effetto grana */
+  overflow: hidden;
+  /* Nasconde il contenuto fuori dal div */
+}
+
+.info {
+  font-family: 'Russo One', sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+
+.miTrovo {
+  font-family: Russo one;
+  font-size: 50px;
+  color: black;
+}
+
+
+.via {
+  font-family: Russo one;
+  font-size: 20px;
+  color: black;
+}
+
+#map {
+  width: 700px;
+  height: 500px;
+  margin-top: 30px;
+}
