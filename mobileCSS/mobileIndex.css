@@ -68,9 +68,10 @@
   nav ul {
       display: none;
   }
-
-  /* Mostra l'icona del menu a hamburger */
-  #menu-icon {
-      display: block;
+  
+  .cont-info{
+    background-color: rgb(162, 185, 78); width: auto; height: auto; padding: 20px; border-radius: 20px;
   }
+  
+
 }
