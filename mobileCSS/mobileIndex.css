@@ -1,67 +1,76 @@
 /* Aggiungi questo CSS per dispositivi mobili */
 @media screen and (max-width: 768px) {
-    /* Riduci le dimensioni del logo */
-    #logo {
+  /* Riduci le dimensioni del logo */
+  #logo {
       width: 80px;
       margin-left: 10px;
-    }
-  
-    /* Riduci le dimensioni dei link nella navbar */
-    nav a {
+  }
+
+  /* Riduci le dimensioni dei link nella navbar */
+  nav a {
       font-size: 14px;
-    }
-  
-    /* Riduci la dimensione del testo di benvenuto */
-    .benvenuto {
+  }
+
+  /* Riduci la dimensione del testo di benvenuto */
+  .benvenuto {
       font-size: 40px;
-    }
-  
-    /* Riduci le dimensioni del blocco viola */
-    .viola {
+  }
+
+  /* Riduci le dimensioni del blocco viola */
+  .viola {
       width: 90%;
       padding: 20px;
-    }
-  
-    /* Riduci la dimensione del testo all'interno del blocco viola */
-    .nelviola {
+  }
+
+  /* Riduci la dimensione del testo all'interno del blocco viola */
+  .nelviola {
       padding: 20px;
       font-size: 18px;
-    }
+  }
 
-    #scrollDiv {
+  #scrollDiv {
       width: 100%;
       height: 600px;
-    }
-  
-    /* Riduci la dimensione dell'immagine gialla */
-    .immagineGialla {
+  }
+
+  /* Riduci la dimensione dell'immagine gialla */
+  .immagineGialla {
       width: 100%;
       height: 600px;
-    }
-  
-    /* Riduci la dimensione dell'immagine Makima */
-    .makima {
+  }
+
+  /* Riduci la dimensione dell'immagine Makima */
+  .makima {
       height: 350px;
       right: -70px;
-    }
-  
-    /* Riduci la dimensione del testo "UN AMANTE DELLO STILE MANGA" */
-    #stileManga {
+  }
+
+  /* Riduci la dimensione del testo "UN AMANTE DELLO STILE MANGA" */
+  #stileManga {
       font-size: 30px;
       margin-top: 20px;
-    }
-  
-    /* Riduci la dimensione del testo "Se sei un amante di questo stile..." */
-    #testoManga {
+  }
+
+  /* Riduci la dimensione del testo "Se sei un amante di questo stile..." */
+  #testoManga {
       font-size: 20px;
       margin: 10px;
       margin-top: 20px;
-    }
-  
-    /* Riduci la dimensione del pulsante "CHI SONO" */
-    .btn-toolset {
+  }
+
+  /* Riduci la dimensione del pulsante "CHI SONO" */
+  .btn-toolset {
       font-size: 16px;
       padding: 12px 40px;
-    }
   }
-  
+
+  /* Nascondi la navigazione principale */
+  nav ul {
+      display: none;
+  }
+
+  /* Mostra l'icona del menu a hamburger */
+  #menu-icon {
+      display: block;
+  }
+}

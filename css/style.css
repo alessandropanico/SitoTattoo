@@ -208,6 +208,8 @@ hr {
   padding: 0px;
 }
 
+
+/*-----------------------------*/
 /*ALTRI ELEMENTI DELL'INDEX CSS*/
 
 .benvenuto {
@@ -279,6 +281,14 @@ hr {
   margin: 30px;
   color: black;
   word-wrap: break-word;
+}
+
+.parliamone{
+  font-family: Russo one; font-size: 60px; color: white;
+}
+
+.cont-info{
+  background-color: rgb(162, 185, 78); width: auto; height: auto; padding: 20px; border-radius: 20px;
 }
 
 .info {
