@@ -12,7 +12,7 @@
   }
 
   nav ul li {
-    margin-right: 10px; /* Puoi regolare questo valore a tuo piacimento */
+    margin-right: 20px; /* Puoi regolare questo valore a tuo piacimento */
 }
 
 
@@ -68,7 +68,7 @@
   nav ul {
       display: none;
   }
-  
+
   .cont-info{
     background-color: rgb(162, 185, 78); width: auto; height: auto; padding: 20px; border-radius: 20px;
   }
