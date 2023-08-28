@@ -7,9 +7,10 @@
   }
 
   /* Riduci le dimensioni dei link nella navbar */
-  /* nav a {
-      font-size: 14px;
-  } */
+  nav a {
+      font-size: 18px;
+  } 
+
 
   .active {
     color: red;
