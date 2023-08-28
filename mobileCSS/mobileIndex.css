@@ -7,6 +7,42 @@
       margin-left: 10px;
   }
 
+  nav ul {
+    display: flex;
+    flex-direction: column; /* Imposta il menu a una colonna */
+    align-items: flex-start; /* Allinea gli elementi a sinistra */
+    padding: 0; /* Rimuovi il padding dal menu */
+    background-color: rgba(255, 255, 255, 0.9); /* Sfondo semi-trasparente */
+    position: absolute;
+    top: 60px; /* Aggiungi spazio sotto la barra di navigazione fissa */
+    left: 0;
+    width: 100%;
+    transition: all 0.3s ease; /* Aggiungi una transizione per un effetto di apertura/chiusura */
+    z-index: 9998; /* Porta il menu davanti a tutti gli altri elementi */
+  }
+
+  /* Stili per gli elementi del menu */
+  li {
+    padding: 10px;
+    margin-left: 0;
+    padding-left: 20px; /* Riduci il padding sinistro */
+    width: 100%; /* Occupa tutta la larghezza disponibile */
+    text-align: left; /* Allinea il testo a sinistra */
+  }
+
+  ul li {
+    margin-right: 0; /* Rimuovi il margine destro */
+  }
+
+  ul li:last-child {
+    margin-right: 0;
+  }
+
+  a {
+    font-size: 16px; /* Riduci la dimensione del font */
+    color: rgb(0, 0, 0);
+    text-align: left;
+  }
   
   .active {
     color: red;
