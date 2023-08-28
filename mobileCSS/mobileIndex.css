@@ -11,11 +11,6 @@
       font-size: 14px;
   }
 
-  ul li {
-    margin-right: 10px;
-  }
-
-
   /* Riduci le dimensioni del blocco viola */
   .viola {
       width: 90%;
