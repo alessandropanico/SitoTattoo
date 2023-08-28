@@ -8,15 +8,18 @@
 
   /* Riduci le dimensioni dei link nella navbar */
   nav a {
-      font-size: 18px;
-  } 
+    font-size: 14px;
+  }
 
 
+  ul li {
+    margin-right: 10px;
+  }
   .active {
     color: red;
   }
 
-  
+
   /* Riduci le dimensioni del blocco viola */
   .viola {
       width: 90%;
