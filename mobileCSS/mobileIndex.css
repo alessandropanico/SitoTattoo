@@ -7,40 +7,6 @@
       margin-left: 10px;
   }
 
-  nav {
-    background-color: rgba(255, 255, 255, 0.9); /* Fondo trasparente per dispositivi mobili */
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Aggiungi una leggera ombra */
-    padding: 10px; /* Aggiungi spazio interno */
-  }
-
-  ul.nav {
-    display: flex;
-    list-style: none;
-    justify-content: space-between; /* Distribuisci gli elementi uniformemente */
-    align-items: center; /* Allinea verticalmente gli elementi al centro */
-    margin: 0;
-    padding: 0;
-  }
-
-  ul.nav li {
-    margin: 0;
-    padding: 0;
-  }
-
-  ul.nav a {
-    font-size: 16px; /* Riduci la dimensione del testo */
-    padding: 10px; /* Aggiungi spazio attorno ai link */
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-  }
-
-
-  /* Mostra l'icona del menu solo su dispositivi mobili */
-  .menu-icon {
-    display: block;
-    font-size: 24px;
-    cursor: pointer;
-  }
   
   .active {
     color: red;
