@@ -11,10 +11,10 @@
       font-size: 14px;
   }
 
-  /* Riduci la dimensione del testo di benvenuto */
-  .benvenuto {
-      font-size: 40px;
-  }
+  nav ul li {
+    margin-right: 10px; /* Puoi regolare questo valore a tuo piacimento */
+}
+
 
   /* Riduci le dimensioni del blocco viola */
   .viola {
@@ -24,7 +24,7 @@
 
   /* Riduci la dimensione del testo all'interno del blocco viola */
   .nelviola {
-      padding: 20px;
+      padding: 10px;
       font-size: 18px;
   }
 
