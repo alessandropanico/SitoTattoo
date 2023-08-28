@@ -7,10 +7,15 @@
   }
 
   /* Riduci le dimensioni dei link nella navbar */
-  nav a {
+  /* nav a {
       font-size: 14px;
+  } */
+
+  .active {
+    color: red;
   }
 
+  
   /* Riduci le dimensioni del blocco viola */
   .viola {
       width: 90%;
