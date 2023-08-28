@@ -1,9 +1,7 @@
-
-//-----------------------------------------
-//NAVBAR CHE SCROLLANDO SI DISSOLVE
 var navbar = document.getElementById("navbar");
 var links = navbar.getElementsByTagName("a");
 var lastScrollPos = window.scrollY;
+var linksEnabled = true; // Aggiunto il flag per abilitare/disabilitare i link
 
 window.onscroll = function() {
     var currentScrollPos = window.scrollY;
@@ -28,18 +26,23 @@ function disableLinks() {
         links[i].addEventListener("click", preventLinkClick);
         links[i].style.pointerEvents = "none";
     }
+    linksEnabled = false; // Disabilita i link quando la navbar è nascosta
 }
 
 function enableLinks() {
     for (var i = 0; i < links.length; i++) {
         links[i].removeEventListener("click", preventLinkClick);
-        links[i].style.pointerEvents = "auto";
+        if (linksEnabled) {
+            links[i].style.pointerEvents = "auto";
+        }
     }
+    linksEnabled = true; // Abilita i link quando la navbar è visibile
 }
 
 function preventLinkClick(event) {
     event.preventDefault();
 }
+
 //-----------------------------------------
 
 

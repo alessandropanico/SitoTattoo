@@ -14,7 +14,6 @@ li {
   padding: 10px;
   margin-left: 0;
   padding-left: 50px;
-
 }
 
 ul li {
@@ -79,6 +78,13 @@ hr {
   opacity: 1;
   z-index: 9999;
 }
+
+/* Stile aggiunto per la classe "disabled-pointer" */
+#navbar.disabled-pointer {
+  pointer-events: none;
+  cursor: default;
+}
+
 
 #custom-navbar.scrolled {
   opacity: 0;
@@ -273,4 +279,32 @@ hr {
   margin: 30px;
   color: black;
   word-wrap: break-word;
+}
+
+.info {
+  font-family: Russo one;
+  font-size: 25px;
+  color: black;
+}
+
+#inviaButton {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  color: #FFFFFF;
+  text-decoration: none;
+  line-height: 1.2;
+  font-weight: normal;
+  font-family: 'Russo One', sans-serif;
+  font-size: 20px; /* Ridotto il font size */
+  background-color: rgb(20, 195, 4);
+  border-radius: 50px;
+  padding: 15px 60px; /* Ridotto il padding */
+  border: 3px solid rgb(20, 195, 4); /* Ridotta la dimensione del bordo */
+  cursor: pointer;
+  transition: background-color 0.7s ease;
+}
+
+#inviaButton:hover {
+  background-color: #000000;
 }
