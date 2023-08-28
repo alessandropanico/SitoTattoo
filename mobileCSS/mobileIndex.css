@@ -11,9 +11,9 @@
       font-size: 14px;
   }
 
-  nav ul li {
-    margin-right: 20px; /* Puoi regolare questo valore a tuo piacimento */
-}
+  ul li {
+    margin-right: 10px;
+  }
 
 
   /* Riduci le dimensioni del blocco viola */
