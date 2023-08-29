@@ -22,12 +22,13 @@
     /* Stile per l'icona Instagram */
     .insta {
         width: 20px;
+        margin-left: auto; /* Muove l'icona a destra */
         margin-right: 10px;
     }
 
     /* Riduci dimensioni titolo benvenuto */
     .benvenuto {
-        font-size: 25px;
+        font-size: 40px;
     }
 
     /* Riduci dimensioni del blocco viola */
@@ -48,9 +49,14 @@
         height: auto;
     }
 
+    #scrollDiv {
+        width: 100%;
+        height: auto;
+      }
+
     /* Riduci dimensioni dell'immagine Makima */
     #scrollImg {
-        height: 350;
+        height: 70;
         margin-top: 20px;
         right: -70px;
     }
