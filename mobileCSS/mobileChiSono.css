@@ -1,6 +1,6 @@
 /* Stile per dispositivi mobili */
 @media screen and (max-width: 768px) {
-    /*NAVBAR*/
+
     /* Riduci le dimensioni del logo e aggiungi margine */
     .custom-navbar {
         display: flex;
@@ -39,10 +39,11 @@
         margin-left: 10px; /* Aggiungi margine sinistro */
     }
 
+
     ul li {
         margin-right: -10px; /* Aggiungi spazio tra le voci */
     }
-
+   
     /*ELEMENTI PAGINA*/
 
     /* Stile per il contenitore dell'immagine */
