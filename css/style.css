@@ -237,13 +237,13 @@ hr {
 
 #scrollDiv {
   background-color: rgb(204, 255, 0);
-  width: 1000px;
-  height: 600px;
-  margin-right: 2px;
-  margin-left: 2px;
-  overflow: hidden;
-  position: relative;
-  z-index: 0;
+      width: 1000px;
+      height: 600px;
+      margin-right: 2px;
+      margin-left: 2px;
+      overflow: hidden;
+      position: relative;
+      z-index: 0;
 }
 
 .immagineGialla {
@@ -257,7 +257,7 @@ hr {
 }
 
 
-.makima {
+ #scrollImg {
   height: 550px;
   position: absolute;
   right: -400px;
@@ -272,7 +272,7 @@ hr {
   color: black;
   font-family: 'Gasoek One', sans-serif;
   text-align: center;
-}
+} 
 
 #testoManga {
   font-family: 'Ubuntu', sans-serif;
