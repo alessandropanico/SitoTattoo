@@ -1,74 +1,99 @@
-/* Aggiungi questo CSS per dispositivi mobili */
-
+/* Stile per dispositivi mobili */
 @media screen and (max-width: 768px) {
-    /* Riduci le dimensioni del logo */
+    /* Riduci le dimensioni del logo e aggiungi margine */
     #logo {
         width: 80px;
         margin-left: 10px;
     }
 
-    .benvenuto{
+    /* Stile per la barra di navigazione */
+    .custom-navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.5); /* Aggiungi un colore di sfondo */
+    }
+
+    /* Stile per le voci del menu */
+    .navLink {
+        font-size: 14px;
+    }
+
+    /* Stile per l'icona Instagram */
+    .insta {
+        width: 20px;
+        margin-right: 10px;
+    }
+
+    /* Riduci dimensioni titolo benvenuto */
+    .benvenuto {
         font-size: 25px;
     }
-  
-    /* Riduci le dimensioni del blocco viola */
+
+    /* Riduci dimensioni del blocco viola */
     .viola {
         width: 90%;
         padding: 20px;
     }
-  
-    /* Riduci la dimensione del testo all'interno del blocco viola */
+
+    /* Riduci dimensioni del testo nel blocco viola */
     .nelviola {
         padding: 10px;
         font-size: 18px;
     }
-  
-    #scrollDiv {
-        width: 100%;
-        height: 600px;
-    }
-  
-    /* Riduci la dimensione dell'immagine gialla */
+
+    /* Stile per l'immagine gialla */
     .immagineGialla {
         width: 100%;
-        height: 600px;
+        height: auto;
     }
-  
-    /* Riduci la dimensione dell'immagine Makima */
+
+    /* Riduci dimensioni dell'immagine Makima */
     #scrollImg {
-        height: 350px;
+        height: auto;
         margin-top: 20px;
         right: -70px;
     }
-  
-    /* Riduci la dimensione del testo "UN AMANTE DELLO STILE MANGA" */
+
+    /* Riduci dimensioni del titolo "UN AMANTE DELLO STILE MANGA" */
     #stileManga {
         font-size: 30px;
         margin-top: 20px;
     }
-  
-    /* Riduci la dimensione del testo "Se sei un amante di questo stile..." */
+
+    /* Riduci dimensioni del testo "Se sei un amante di questo stile..." */
     #testoManga {
         font-size: 20px;
         margin: 10px;
         margin-top: 20px;
     }
-  
-    /* Riduci la dimensione del pulsante "CHI SONO" */
+
+    /* Riduci dimensioni del pulsante "CHI SONO" */
     .btn-toolset {
         font-size: 16px;
         padding: 12px 40px;
     }
-  
-    /* Nascondi la navigazione principale */
-    nav ul {
-        display: none;
+
+    /* Stile per il blocco con i dati del cliente */
+    .cont-info {
+        background-color: rgb(162, 185, 78);
+        width: auto;
+        height: auto;
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: 20px;
     }
-  
-    .cont-info{
-      background-color: rgb(162, 185, 78); width: auto; height: auto; padding: 20px; border-radius: 20px;
+
+    /* Stile per la sezione margin-top */
+    section[style="margin-top: 70px;"] {
+        height: 40px; /* Riduci l'altezza della sezione */
     }
-    
-  
-  }
-  
+
+    /* Stile per il pulsante di invio su WhatsApp */
+    #inviaButton {
+        margin-top: 20px;
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
