@@ -37,7 +37,7 @@
 
     /* Stile per il titolo "Luca Panico" */
     .nome {
-        font-size: 24px;
+        font-size: 40px;
         text-align: center;
         margin-top: 20px;
     }
@@ -79,7 +79,7 @@
     }
 
     .contenitoreImmagine {
-        background-color: rgba(255, 255, 255, 0.8);
+        background-color: rgb(45, 45, 45);     
         padding: 20px;
         border-radius: 10px;
     }
