@@ -1,30 +1,32 @@
 /* Stile per dispositivi mobili */
 @media screen and (max-width: 768px) {
     /* Riduci le dimensioni del logo e aggiungi margine */
+    .custom-navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.5); /* Aggiungi un colore di sfondo */
+    }
+
+    /* Stile per il logo */
     #logo {
         width: 80px;
         margin-left: 10px;
     }
 
-    /* Stile per la barra di navigazione */
-    .custom-navbar {
-        display: flex;
-        align-items: center;
-        padding: 10px;
-        background-color: white; /* Aggiungi un colore di sfondo */
+    /* Stile per l'icona Instagram */
+    .insta {
+        width: 20px;
+        margin-right: 10px;
+        float: right;
     }
 
     /* Stile per le voci del menu */
     .nav-list a {
         font-size: 14px;
     }
-
-    /* Stile per l'icona Instagram */
-    .insta {
-        width: 20px;
-        margin-left: auto; /* Muove l'icona a destra */
-        margin-right: 10px;
-    }
+   
 
     /* Riduci dimensioni titolo benvenuto */
     .benvenuto {
@@ -46,17 +48,17 @@
     /* Stile per l'immagine gialla */
     .immagineGialla {
         width: 100%;
-        height: 600px;
+        height: 400px;
     }
 
     #scrollDiv {
         width: 100%;
-        height: 600px;
+        height: 400px;
       }
 
     /* Riduci dimensioni dell'immagine Makima */
     #scrollImg {
-        height: 70px;
+        height: 300px;
         margin-top: 20px;
         right: -70px;
     }
