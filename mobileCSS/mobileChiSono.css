@@ -79,9 +79,9 @@
     }
 
     .contenitoreImmagine {
-        background-color: rgb(45, 45, 45);     
         padding: 20px;
         border-radius: 10px;
+        height: auto;
     }
 
 }
