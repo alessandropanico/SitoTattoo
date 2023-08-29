@@ -3,7 +3,8 @@
     /* Riduci le dimensioni del logo e aggiungi margine */
     .custom-navbar {
         display: flex;
-        /* align-items: center; */
+        /* align-items: center;  */
+        flex-direction: column;
         padding: 10px;
         background-color: rgb(255, 255, 255); /* Aggiungi un colore di sfondo */
     }
@@ -16,8 +17,9 @@
 
     /* Stile per l'icona Instagram */
     .insta {
-        width: 20px;
+        width: 80px;
         float: right;
+        margin-right: 10px; /* Aggiungi un margine destro per separare dall'elemento precedente */
     }
 
     /* Stile per le voci del menu */
