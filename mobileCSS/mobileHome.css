@@ -20,6 +20,7 @@
     .insta {
         width: 40px;
         float: right;
+        position: absolute;
         margin-right: 10px; /* Aggiungi un margine destro per separare dall'elemento precedente */
         margin-top: 5px; /* Aggiungi un margine superiore */
 
@@ -84,7 +85,7 @@
     #scrollImg {
         height: 200px;
         margin-top: 40px;
-        right: -70px;
+        right: -50px;
     }
 
     /* Riduci dimensioni del titolo "UN AMANTE DELLO STILE MANGA" */
