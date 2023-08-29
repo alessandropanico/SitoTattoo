@@ -29,6 +29,15 @@
     border-radius: 20px;
   }
 
+  /*card fatte da me*/
+  .carta {
+    width: 250px;
+    height: 350px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+
   .posizione {
     position: absolute;
     top: 0;
