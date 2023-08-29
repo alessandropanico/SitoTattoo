@@ -1,6 +1,6 @@
 /* Stile per dispositivi mobili */
 @media screen and (max-width: 768px) {
-    
+
     /* Riduci le dimensioni del logo e aggiungi margine */
     .custom-navbar {
         display: flex;
@@ -13,7 +13,7 @@
     #logo {
         width: 80px;
         margin-left: 10px;
-        margin-top: 0px;
+        margin-top: 10px;
     }
 
     /* Stile per l'icona Instagram */
@@ -21,12 +21,24 @@
         width: 30px;
         float: right;
         margin-right: 10px; /* Aggiungi un margine destro per separare dall'elemento precedente */
+        margin-top: 10px;
+
     }
 
     /* Stile per le voci del menu */
+     .nav-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Allinea le voci a sinistra */
+        margin-top: 10px; /* Aggiungi margine in cima al UL */
+        list-style: none; /* Rimuovi i punti dalle voci del menu */
+    }
+
     .nav-list a {
         font-size: 14px;
+        margin-left: 10px; /* Aggiungi margine sinistro */
     }
+
 
     ul li {
         margin-right: -10px; /* Aggiungi spazio tra le voci */
