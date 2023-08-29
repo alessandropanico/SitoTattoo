@@ -4,7 +4,7 @@
     .custom-navbar {
         display: flex;
         flex-direction: column;
-        padding: 10px;
+        padding: 5px 10px; /* Riduci il padding */
         background-color: rgb(255, 255, 255); /* Aggiungi un colore di sfondo */
     }
 
@@ -12,11 +12,12 @@
     #logo {
         width: 80px;
         margin-left: 10px;
+        margin-top: 0px;
     }
 
     /* Stile per l'icona Instagram */
     .insta {
-        width: 80px;
+        width: 30px;
         float: right;
         margin-right: 10px; /* Aggiungi un margine destro per separare dall'elemento precedente */
     }
@@ -30,6 +31,12 @@
         margin-right: -10px; /* Aggiungi spazio tra le voci */
     }
    
+
+
+
+
+
+    
 
     /* Riduci dimensioni titolo benvenuto */
     .benvenuto {
