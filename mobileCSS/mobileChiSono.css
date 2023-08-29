@@ -46,59 +46,5 @@
    
     /*ELEMENTI PAGINA*/
 
-    /* Stile per il contenitore dell'immagine */
-    #contenitoreImmagine {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
 
-    /* Stile per il nome */
-    #nome {
-        font-size: 20px;
-        text-align: center;
-        margin-top: 10px;
-    }
-
-    /* Stile per il testo */
-    .testo {
-        font-size: 16px;
-        text-align: justify;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-
-    /* Stile per l'immagine del profilo */
-    #immagineProfilo {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    /* Stile per il pulsante "Scopri" */
-    .btn-scopri {
-        display: block;
-        width: 120px;
-        margin: 10px auto;
-        padding: 10px;
-        text-align: center;
-        background-color: #f9f9f9;
-        color: #333;
-        text-decoration: none;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        transition: background-color 0.3s ease;
-    }
-
-    .btn-scopri:hover {
-        background-color: #e5e5e5;
-    }
-
-    #sfondo {
-        position: relative; /* Cambia in relative per adattarsi correttamente allo sfondo */
-        width: 100%;
-        margin-top: 50px;
-        height: auto;
-    }
 }
