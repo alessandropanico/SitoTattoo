@@ -2,14 +2,6 @@
 @media screen and (max-width: 768px) {
 
     /* Riduci le dimensioni del logo e aggiungi margine */
-    .custom-navbar {
-        display: flex;
-        flex-direction: column;
-        padding: 5px 10px; /* Riduci il padding */
-        background-color: rgb(255, 255, 255); /* Aggiungi un colore di sfondo */
-    }
-
-    /* Stile per il logo */
     #logo {
         width: 80px;
         margin-left: 10px;
@@ -20,32 +12,84 @@
     .insta {
         width: 40px;
         position: absolute;
-        top: 10px; /* Sposta in alto di 10px dalla parte superiore */
-        right: 10px; /* Sposta a destra di 10px dalla parte destra */
-        z-index: 9999; /* Porta l'elemento in primo piano */
+        top: 10px;
+        right: 10px;
+        z-index: 9999;
     }
 
     /* Stile per le voci del menu */
-     .nav-list {
+    .nav-list {
         display: flex;
         flex-direction: column;
-        align-items: flex-start; /* Allinea le voci a sinistra */
-        margin-top: 10px; /* Aggiungi margine in cima al UL */
-        list-style: none; /* Rimuovi i punti dalle voci del menu */
+        align-items: flex-start;
+        margin-top: 10px;
+        list-style: none;
     }
 
     .nav-list a {
         font-size: 14px;
-        margin-left: 10px; /* Aggiungi margine sinistro */
+        margin-left: 10px;
     }
-
 
     ul li {
-        margin-right: -10px; /* Aggiungi spazio tra le voci */
+        margin-right: -10px;
     }
-   
 
+    /* Stile per il titolo "Luca Panico" */
+    .nome {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 20px;
+    }
 
+    /* Stile per il testo */
+    .testo {
+        font-size: 14px;
+        text-align: justify;
+        padding: 10px;
+    }
 
+    /* Stile per l'immagine del profilo */
+    #immagineProfilo {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    /* Stile per il pulsante "GALLERIA" */
+    .btn-scopri {
+        font-size: 16px;
+        padding: 10px 20px;
+        margin-top: 20px;
+    }
+
+    /* Stile per la sezione margin-top */
+    section[style="margin-top: 350px;"] {
+        height: 40px;
+    }
+
+    /* Altri stili per la pagina */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #fff;
+        color: #333;
+    }
+
+    #sfondo {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .contenitoreImmagine {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+    }
 
 }
