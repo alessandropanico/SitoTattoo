@@ -19,11 +19,10 @@
     /* Stile per l'icona Instagram */
     .insta {
         width: 40px;
-        float: right;
         position: absolute;
-        margin-right: 10px; /* Aggiungi un margine destro per separare dall'elemento precedente */
-        margin-top: 5px; /* Aggiungi un margine superiore */
-
+        top: 10px; /* Sposta in alto di 10px dalla parte superiore */
+        right: 10px; /* Sposta a destra di 10px dalla parte destra */
+        z-index: 9999; /* Porta l'elemento in primo piano */
     }
 
     /* Stile per le voci del menu */
