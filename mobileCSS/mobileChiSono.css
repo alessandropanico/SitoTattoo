@@ -94,4 +94,11 @@
     .btn-scopri:hover {
         background-color: #e5e5e5;
     }
+
+    #sfondo {
+        position: relative; /* Cambia in relative per adattarsi correttamente allo sfondo */
+        width: 100%;
+        margin-top: 50px;
+        height: auto;
+    }
 }
