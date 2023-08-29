@@ -1,0 +1,96 @@
+/* Stile per dispositivi mobili */
+@media screen and (max-width: 768px) {
+    /*NAVBAR*/
+    /* Riduci le dimensioni del logo e aggiungi margine */
+    .custom-navbar {
+        display: flex;
+        flex-direction: column;
+        padding: 5px 10px; /* Riduci il padding */
+        background-color: rgb(255, 255, 255); /* Aggiungi un colore di sfondo */
+    }
+
+    /* Stile per il logo */
+    #logo {
+        width: 80px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    /* Stile per l'icona Instagram */
+    .insta {
+        width: 40px;
+        position: absolute;
+        top: 10px; /* Sposta in alto di 10px dalla parte superiore */
+        right: 10px; /* Sposta a destra di 10px dalla parte destra */
+        z-index: 9999; /* Porta l'elemento in primo piano */
+    }
+
+    /* Stile per le voci del menu */
+     .nav-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Allinea le voci a sinistra */
+        margin-top: 10px; /* Aggiungi margine in cima al UL */
+        list-style: none; /* Rimuovi i punti dalle voci del menu */
+    }
+
+    .nav-list a {
+        font-size: 14px;
+        margin-left: 10px; /* Aggiungi margine sinistro */
+    }
+
+    ul li {
+        margin-right: -10px; /* Aggiungi spazio tra le voci */
+    }
+
+    /*ELEMENTI PAGINA*/
+
+    /* Stile per il contenitore dell'immagine */
+    #contenitoreImmagine {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* Stile per il nome */
+    #nome {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /* Stile per il testo */
+    .testo {
+        font-size: 16px;
+        text-align: justify;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    /* Stile per l'immagine del profilo */
+    #immagineProfilo {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* Stile per il pulsante "Scopri" */
+    .btn-scopri {
+        display: block;
+        width: 120px;
+        margin: 10px auto;
+        padding: 10px;
+        text-align: center;
+        background-color: #f9f9f9;
+        color: #333;
+        text-decoration: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-scopri:hover {
+        background-color: #e5e5e5;
+    }
+}

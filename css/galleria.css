@@ -35,6 +35,8 @@
     height: 350px;
     cursor: pointer;
     border-radius: 20px;
+    border: solid 5px;
+    border-color: red;
   }
 
 

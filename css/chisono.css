@@ -8,11 +8,9 @@
 }
 
 .nome {
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Russo One';
     font-size: 60px;
-    color: transparent; /* Imposta il colore del testo su trasparente */
-    -webkit-text-stroke: 2px rgb(255, 255, 255); /* Spessore e colore del contorno */
-    text-stroke: 2px black; /* Spessore e colore del contorno */
+    color: white;
 }
 
 
