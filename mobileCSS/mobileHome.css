@@ -15,7 +15,7 @@
     }
 
     /* Stile per le voci del menu */
-    .navLink {
+    .nav-list a {
         font-size: 14px;
     }
 
@@ -46,17 +46,17 @@
     /* Stile per l'immagine gialla */
     .immagineGialla {
         width: 100%;
-        height: auto;
+        height: 600px;
     }
 
     #scrollDiv {
         width: 100%;
-        height: auto;
+        height: 600px;
       }
 
     /* Riduci dimensioni dell'immagine Makima */
     #scrollImg {
-        height: 70;
+        height: 70px;
         margin-top: 20px;
         right: -70px;
     }
