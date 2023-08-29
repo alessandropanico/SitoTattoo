@@ -17,7 +17,7 @@
     /* Stile per l'icona Instagram */
     .insta {
         width: 20px;
-        margin-right: 10px;
+        float: right;
     }
 
     /* Stile per le voci del menu */
@@ -26,7 +26,7 @@
     }
 
     ul li {
-        margin-right: 5px; /* Aggiungi spazio tra le voci */
+        margin-right: -10px; /* Aggiungi spazio tra le voci */
     }
    
 
@@ -60,7 +60,7 @@
 
     /* Riduci dimensioni dell'immagine Makima */
     .makima {
-        height: 250px;
+        height: 200px;
         margin-top: 20px;
         right: -70px;
     }
