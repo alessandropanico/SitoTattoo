@@ -48,16 +48,16 @@
     /* Stile per l'immagine gialla */
     .immagineGialla {
         width: 100%;
-        height: 400px;
+        height: 450px;
     }
 
     #scrollDiv {
         width: 100%;
-        height: 400px;
+        height: 450px;
       }
 
     /* Riduci dimensioni dell'immagine Makima */
-    #scrollImg {
+    .makima {
         height: 300px;
         margin-top: 20px;
         right: -70px;
@@ -65,7 +65,7 @@
 
     /* Riduci dimensioni del titolo "UN AMANTE DELLO STILE MANGA" */
     #stileManga {
-        font-size: 30px;
+        font-size: 50px;
         margin-top: 20px;
     }
 
