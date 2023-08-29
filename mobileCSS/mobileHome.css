@@ -10,9 +10,8 @@
     .custom-navbar {
         display: flex;
         align-items: center;
-        justify-content: space-between;
         padding: 10px;
-        background-color: rgba(0, 0, 0, 0.5); /* Aggiungi un colore di sfondo */
+        background-color: white; /* Aggiungi un colore di sfondo */
     }
 
     /* Stile per le voci del menu */
@@ -51,7 +50,7 @@
 
     /* Riduci dimensioni dell'immagine Makima */
     #scrollImg {
-        height: auto;
+        height: 350;
         margin-top: 20px;
         right: -70px;
     }
