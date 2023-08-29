@@ -6,7 +6,11 @@
         flex-direction: column;
         align-items: center;
         padding: 10px;
-        background-color: rgba(0, 0, 0, 0.5); /* Aggiungi un colore di sfondo */
+        background-color: rgb(255, 255, 255); /* Aggiungi un colore di sfondo */
+    }
+
+    header{
+        background-color: white;
     }
 
     /* Stile per il logo */
