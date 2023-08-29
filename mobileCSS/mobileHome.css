@@ -1,72 +1,74 @@
-/* Stile della navbar per dispositivi mobili */
-@media (max-width: 768px) {
-    /* Nascondi il logo in versione mobile */
+/* Aggiungi questo CSS per dispositivi mobili */
+
+@media screen and (max-width: 768px) {
+    /* Riduci le dimensioni del logo */
     #logo {
         width: 80px;
-        height: 80px;
-        display: inline-block;
+        margin-left: 10px;
+    }
+
+    .benvenuto{
+        font-size: 25px;
     }
   
-    /* Rendi visibili le icone dei social media */
-    .insta {
-      display: inline-block;
+    /* Riduci le dimensioni del blocco viola */
+    .viola {
+        width: 90%;
+        padding: 20px;
     }
   
-    /* Stile per la navbar a comparsa */
-    .custom-navbar {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      background-color: rgba(0, 0, 0, 0.8);
-      padding: 10px;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      z-index: 9999;
-      transform: translateY(-100%);
-      transition: transform 0.3s ease-in-out;
+    /* Riduci la dimensione del testo all'interno del blocco viola */
+    .nelviola {
+        padding: 10px;
+        font-size: 18px;
     }
   
-    /* Mostra la navbar a comparsa quando aperta */
-    .navbar-open .custom-navbar {
-      transform: translateY(0);
+    #scrollDiv {
+        width: 100%;
+        height: 600px;
     }
   
-    /* Stile per le voci del menu */
-    .navLink {
-      margin: 10px;
-      font-size: 18px;
-      color: #fff;
-      text-decoration: none;
-      transition: color 0.2s;
+    /* Riduci la dimensione dell'immagine gialla */
+    .immagineGialla {
+        width: 100%;
+        height: 600px;
     }
   
-    /* Cambia il colore del testo quando si passa sopra una voce del menu */
-    .navLink:hover {
-      color: #f7d731;
+    /* Riduci la dimensione dell'immagine Makima */
+    #scrollImg {
+        height: 350px;
+        margin-top: 20px;
+        right: -70px;
     }
   
-    /* Stile per l'icona della freccia in versione mobile */
-    #freccia,
-    #freccia2 {
-      display: none;
+    /* Riduci la dimensione del testo "UN AMANTE DELLO STILE MANGA" */
+    #stileManga {
+        font-size: 30px;
+        margin-top: 20px;
     }
   
-    /* Stile per il pulsante di apertura della navbar a comparsa */
-    .navbar-toggler {
-      color: #fff;
-      border: none;
-      background-color: transparent;
-      font-size: 24px;
-      cursor: pointer;
-      margin-top: 10px;
+    /* Riduci la dimensione del testo "Se sei un amante di questo stile..." */
+    #testoManga {
+        font-size: 20px;
+        margin: 10px;
+        margin-top: 20px;
     }
   
-    /* Stile per l'immagine di freccia in versione mobile */
-    .freccia-icon {
-      width: 30px;
-      transform: rotate(90deg);
+    /* Riduci la dimensione del pulsante "CHI SONO" */
+    .btn-toolset {
+        font-size: 16px;
+        padding: 12px 40px;
     }
+  
+    /* Nascondi la navigazione principale */
+    nav ul {
+        display: none;
+    }
+  
+    .cont-info{
+      background-color: rgb(162, 185, 78); width: auto; height: auto; padding: 20px; border-radius: 20px;
+    }
+    
+  
   }
   
