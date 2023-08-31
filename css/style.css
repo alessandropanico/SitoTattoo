@@ -320,3 +320,10 @@ hr {
 #inviaButton:hover {
   background-color: #000000;
 }
+
+.discount {
+  background-color: rgb(20, 195, 4); /* Colore sfondo */
+  color: #fff; /* Colore testo */
+  padding: 5px;
+  border-radius: 3px;
+}

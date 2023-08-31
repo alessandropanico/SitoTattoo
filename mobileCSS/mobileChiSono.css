@@ -1,7 +1,17 @@
 /* Stile per dispositivi mobili */
 @media screen and (max-width: 768px) {
 
-    /* Riduci le dimensioni del logo e aggiungi margine */
+    /* NAVBAR */
+
+    .custom-navbar {
+        display: flex;
+        flex-direction: column;
+        padding: 5px 10px;
+        /* Riduci il padding */
+        background-color: rgb(255, 255, 255);
+        /* Aggiungi un colore di sfondo */
+    }
+
     #logo {
         width: 80px;
         margin-left: 10px;
@@ -35,6 +45,11 @@
         margin-right: -10px;
     }
 
+
+
+    /*ALTRI ELEMENTI PAGINA*/
+
+
     /* Stile per il titolo "Luca Panico" */
     .nome {
         font-size: 40px;
@@ -52,7 +67,7 @@
     /* Stile per l'immagine del profilo */
     #immagineProfilo {
         height: 150px;
-        width:  auto;
+        width: auto;
         margin-top: 20px;
     }
 

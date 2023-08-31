@@ -1,7 +1,8 @@
 /* Stile per dispositivi mobili */
 @media screen and (max-width: 768px) {
 
-    /* Riduci le dimensioni del logo e aggiungi margine */
+    /* NAVBAR */
+    
     .custom-navbar {
         display: flex;
         flex-direction: column;
@@ -81,7 +82,7 @@
       }
 
     /* Riduci dimensioni dell'immagine Makima */
-    #scrollImg {
+    .makima {
         height: 300px;
         margin-top: 40px;
         right: -50px;
