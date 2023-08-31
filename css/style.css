@@ -322,8 +322,8 @@ hr {
 }
 
 .discount {
-  background-color: rgb(20, 195, 4); /* Colore sfondo */
-  color: #fff; /* Colore testo */
+  background-color: rgb(20, 195, 4); 
+  color: #fff; 
   padding: 5px;
   border-radius: 3px;
 }
