@@ -46,11 +46,7 @@
     }
    
 
-
-
-
-
-    
+    /*----------------------------------------------*/
 
     /* Riduci dimensioni titolo benvenuto */
     .benvenuto {
@@ -83,7 +79,7 @@
 
     /* Riduci dimensioni dell'immagine Makima */
     .makima {
-        height: 300px;
+        height: 250px;
         margin-top: 40px;
         right: -50px;
     }
