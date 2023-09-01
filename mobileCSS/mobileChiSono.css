@@ -84,12 +84,8 @@
     }
   
     /* Stile per l'immagine a destra del testo */
-    .row {
+    .row-reverse {
       flex-direction: row-reverse;
-    }
-  
-    .col-md-6 {
-      order: 2;
     }
   }
   
