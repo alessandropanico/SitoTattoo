@@ -1,106 +1,95 @@
 /* Stile per dispositivi mobili */
 @media screen and (max-width: 768px) {
-
-    /* NAVBAR */
-
+    /* Navbar */
     .custom-navbar {
-        display: flex;
-        flex-direction: column;
-        padding: 5px 10px;
-        /* Riduci il padding */
-        background-color: rgb(255, 255, 255);
-        /* Aggiungi un colore di sfondo */
+      display: flex;
+      flex-direction: column;
+      padding: 5px 10px;
+      background-color: rgb(255, 255, 255);
     }
-
+  
     #logo {
-        width: 80px;
-        margin-left: 10px;
-        margin-top: 20px;
+      width: 80px;
+      margin-left: 10px;
+      margin-top: 20px;
     }
-
-    /* Stile per l'icona Instagram */
+  
     .insta {
-        width: 40px;
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        z-index: 9999;
+      width: 40px;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 9999;
     }
-
-    /* Stile per le voci del menu */
+  
     .nav-list {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-top: 10px;
-        list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 10px;
+      list-style: none;
     }
-
+  
     .nav-list a {
-        font-size: 14px;
-        margin-left: 10px;
+      font-size: 14px;
+      margin-left: 10px;
     }
-
-    ul li {
-        margin-right: -10px;
-    }
-
-
-
-    /*ALTRI ELEMENTI PAGINA*/
-
-
-    /* Stile per il titolo "Luca Panico" */
+  
+    /* Altri elementi della pagina */
     .nome {
-        font-size: 40px;
-        text-align: center;
-        margin-top: 20px;
+      font-size: 40px;
+      text-align: center;
+      margin-top: 20px;
     }
-
-    /* Stile per il testo */
+  
     .testo {
-        font-size: 14px;
-        text-align: justify;
-        padding: 10px;
+      font-size: 14px;
+      text-align: justify;
+      padding: 10px;
     }
-
-    /* Stile per l'immagine del profilo */
+  
     #immagineProfilo {
-        height: 150px;
-        width: auto;
-        margin-top: 20px;
+      height: 150px;
+      width: auto;
+      margin-top: 20px;
     }
-
-    /* Stile per il pulsante "GALLERIA" */
+  
     .btn-scopri {
-        font-size: 16px;
-        padding: 10px 20px;
-        margin-top: 20px;
+      font-size: 16px;
+      padding: 10px 20px;
+      margin-top: 20px;
     }
-
-    /* Stile per la sezione margin-top */
+  
     section[style="margin-top: 350px;"] {
-        height: 40px;
+      height: 40px;
     }
-
-
+  
     #sfondo {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
     }
-
+  
     .contenitoreImmagine {
-        padding: 20px;
-        border-radius: 10px;
-        height: auto;
+      padding: 20px;
+      border-radius: 10px;
+      height: auto;
     }
-
+  
     section[style="margin-top: 70px;"] {
-        height: 40px; /* Riduci l'altezza della sezione */
+      height: 40px;
     }
-
-}
+  
+    /* Stile per l'immagine a destra del testo */
+    .row {
+      flex-direction: row-reverse;
+    }
+  
+    .col-md-6 {
+      order: 2;
+    }
+  }
+  
