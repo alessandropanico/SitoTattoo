@@ -83,9 +83,19 @@
       height: 40px;
     }
   
-    /* Stile per l'immagine a destra del testo */
     .row-reverse {
-      flex-direction: row-reverse;
-    }
+        flex-direction: row;
+      }
+    
+      /* Stile per la colonna sinistra (testo) */
+      .col-md-6:nth-child(1) {
+        width: 100%;
+      }
+    
+      /* Stile per la colonna destra (immagine) */
+      .col-md-6:nth-child(2) {
+        display: none; /* Nascondi l'immagine inizialmente */
+      }
+    
   }
   
