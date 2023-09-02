@@ -1,3 +1,4 @@
+//NAVBAR CHE SI DISSOLVE
 var navbar = document.getElementById("navbar");
 var links = navbar.getElementsByTagName("a");
 var lastScrollPos = window.scrollY;
@@ -44,7 +45,6 @@ function preventLinkClick(event) {
 }
 
 //-----------------------------------------
-
 
 //PULSANTI ROSSI
 // Ottieni tutti i link di navigazione
