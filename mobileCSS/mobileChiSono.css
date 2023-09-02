@@ -1,6 +1,5 @@
 /* Stile per dispositivi mobili */
 @media screen and (max-width: 768px) {
-
   /* Navbar */
   .custom-navbar {
     display: flex;
@@ -50,8 +49,10 @@
   }
 
   .luca {
-    height: 200px;
-    width: auto;
+    height: auto;
+    max-width: 100%; /* Assicurati che l'immagine non superi la larghezza del contenitore */
+    margin-top: 20px;
+    margin-right: 20px; /* Aggiungi margine a destra */
   }
 
   .btn-scopri {
@@ -77,7 +78,7 @@
     padding: 20px;
     border-radius: 10px;
     height: auto;
-    position: relative; /* Aggiungi questa riga */
+    position: relative;
   }
 
   section[style="margin-top: 70px;"] {
@@ -85,19 +86,19 @@
   }
 
   .row-reverse {
-      flex-direction: row;
-    }
-  
+    flex-direction: row;
+  }
+
   /* Stile per la colonna sinistra (testo) */
   .col-md-6:nth-child(1) {
     width: 100%;
   }
-  
+
   /* Stile per la colonna destra (immagine) */
   .col-md-6:nth-child(2) {
     display: block;
-    position: absolute; /* Aggiungi questa riga */
-    top: 0; /* Sposta in alto */
-    right: 0; /* Sposta a destra */
+    position: absolute;
+    top: 20px; /* Sposta l'immagine verso il basso */
+    right: 20px; /* Sposta l'immagine verso sinistra */
   }
 }
