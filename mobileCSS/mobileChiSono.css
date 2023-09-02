@@ -38,18 +38,16 @@
   
     
     /* Altri elementi della pagina */
-    /* Altri elementi della pagina */
     .nome {
       font-size: 40px;
       text-align: left; /* Allineamento a sinistra */
       margin-top: 20px;
   }
-
   .testo {
     font-size: 14px;
     text-align: justify;
     padding: 10px;
-    overflow-wrap: break-word; /* Il testo va a capo dopo un certo numero di caratteri */
+    overflow-wrap: break-word; /* Il testo va a capo dopo 20 caratteri */
   }
   
 
@@ -89,6 +87,9 @@
   section[style="margin-top: 70px;"] {
       height: 40px;
   }
+
+
+
 
   /* Aggiungi questo stile per rendere l'immagine responsive */
   .luca {
