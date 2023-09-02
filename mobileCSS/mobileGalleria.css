@@ -54,7 +54,7 @@
   .carta, .img-thumbnail {
     width: 100%; /* Riempi larghezza del contenitore */
     max-width: 300px; /* Altezza proporzionale */
-    min-width: 250px;
+    min-width: auto;
     margin: 10px auto; /* Margine superiore e inferiore, centrato orizzontalmente */
   }
 
@@ -113,7 +113,7 @@
   /* Classe per la banner su dispositivi mobili */
   .banner {
     width: 100%;
-    max-height: 500px;
+    max-height: 300px; /* Modifica l'altezza massima per dispositivi mobili */
     z-index: -10;
     margin-top: 130px; /* Aggiunto margine sopra il banner */
     position: relative; /* Imposta il posizionamento relativo sul banner */
