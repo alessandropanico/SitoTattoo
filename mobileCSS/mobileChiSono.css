@@ -90,13 +90,8 @@
 
   /* Aggiungi questo stile per rendere l'immagine responsive */
   .luca {
-    height: 150px;
-    width: auto; /* Imposta la larghezza automatica per mantenere l'aspetto proporzionato */
-    margin-top: 20px; /* Sposta l'immagine in alto */
-    margin-right: 20px; /* Sposta l'immagine a destra */
-    float: right; /* Consente all'immagine di rimanere a destra */
-    max-width: 50%; /* Imposta la larghezza massima al 50% del contenitore */
-}
+      width: auto;
+      height: 400px;
   }
 
   /* Aggiungi questo stile per far funzionare il float anche su dispositivi mobili */

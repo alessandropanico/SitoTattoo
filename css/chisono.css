@@ -22,7 +22,7 @@
 
 #immagineProfilo {
     border-radius: 20%;
-    height: 450px;
+    height: 400px;
     width: auto;
 }
 
@@ -58,3 +58,7 @@
     height: 100%;
     z-index: -1;
 }
+
+
+
+/*MOBILE CSS*/
