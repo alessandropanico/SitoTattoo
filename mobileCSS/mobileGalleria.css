@@ -36,17 +36,37 @@
     margin-left: 10px;
   }
 
-  /* Aggiungi qui le classi e gli ID mancanti per la pagina di galleria mobile */
-
   /* Classe per il titolo "GALLERIA" */
   .galleria {
-    font-size: 18px;
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    background-color: red;
+    font-family: 'Gasoek One', sans-serif;
+    width: 100%;
   }
 
   /* Classe per il pulsante "CONTATTAMI" */
   .btn-red {
-    padding: 10px 40px;
-    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-family: 'Russo One', sans-serif;
+    font-size: 16px; /* Ridotto il font size */
+    background-color: red;
+    border: 5px solid red;
+    border-radius: 50px;
+    padding: 10px 40px; /* Ridotto il padding */
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+    margin-top: 20px; /* Aggiunto margine sopra il pulsante */
+  }
+
+  .btn-red:hover {
+    background-color: black;
   }
 
   /* Classe per le immagini nella galleria */
@@ -65,16 +85,12 @@
     margin-top: 20px;
   }
 
-  /* Classe per il titolo "GALLERIA" */
-  .galleria {
-    margin-top: 20px;
-    font-size: 36px;
-    width: auto;
-  }
-
   /* Classe per il titolo "LAVORI PREFERITI" */
   .lavori {
-    font-size: 48px;
+    font-family: Russo one;
+    font-size: 40px;
+    color: black;
+    text-align: center;
   }
 
   /* Classe per l'overlay */
@@ -100,12 +116,11 @@
   }
 
   /* Classe per la banner su dispositivi mobili */
-.banner {
-  width: 100%;
-  height: auto;
-  z-index: -1;
-  margin-top: 500px;
-  max-height: 500px; /* Imposta l'altezza massima desiderata */
-}
-
+  .banner {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    max-height: 300px; /* Imposta l'altezza massima desiderata */
+    margin-top: 1000px; /* Aggiunto margine sopra il banner */
+  }
 }
