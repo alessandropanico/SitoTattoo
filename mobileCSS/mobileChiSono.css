@@ -1,104 +1,121 @@
 /* Stile per dispositivi mobili */
 @media screen and (max-width: 768px) {
-  /* Navbar */
-  .custom-navbar {
-    display: flex;
-    flex-direction: column;
-    padding: 5px 10px;
-    background-color: rgb(255, 255, 255);
-  }
 
-  #logo {
-    width: 80px;
-    margin-left: 10px;
-    margin-top: 20px;
-  }
-
-  .insta {
-    width: 40px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    z-index: 9999;
-  }
-
-  .nav-list {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 10px;
-    list-style: none;
-  }
-
-  .nav-list a {
-    font-size: 14px;
-    margin-left: 10px;
-  }
-
-  /* Altri elementi della pagina */
-  .nome {
-    font-size: 40px;
-    text-align: center;
-    margin-top: 20px;
+    /* Navbar */
+    .custom-navbar {
+      display: flex;
+      flex-direction: column;
+      padding: 5px 10px;
+      background-color: rgb(255, 255, 255);
+    }
+  
+    #logo {
+      width: 80px;
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+  
+    .insta {
+      width: 40px;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 9999;
+    }
+  
+    .nav-list {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 10px;
+      list-style: none;
+    }
+  
+    .nav-list a {
+      font-size: 14px;
+      margin-left: 10px;
+    }
+  
+    
+    /* Altri elementi della pagina */
+    /* Altri elementi della pagina */
+    .nome {
+      font-size: 40px;
+      text-align: left; /* Allineamento a sinistra */
+      margin-top: 20px;
   }
 
   .testo {
-    font-size: 14px;
-    text-align: justify;
-    padding: 10px;
+      font-size: 14px;
+      text-align: justify;
+      padding: 10px;
   }
 
-  .luca {
-    height: auto;
-    max-width: 100%; /* Assicurati che l'immagine non superi la larghezza del contenitore */
-    margin-top: 20px;
-    margin-right: 20px; /* Aggiungi margine a destra */
+  #immagineProfilo {
+      height: 150px;
+      width: auto;
+      margin-top: 20px; /* Sposta l'immagine in alto */
+      margin-right: 20px; /* Sposta l'immagine a destra */
+      float: right; /* Consente all'immagine di rimanere a destra */
   }
 
   .btn-scopri {
-    font-size: 16px;
-    padding: 10px 20px;
-    margin-top: 20px;
+      font-size: 16px;
+      padding: 10px 20px;
+      margin-top: 20px;
   }
 
   section[style="margin-top: 350px;"] {
-    height: 40px;
+      height: 40px;
   }
 
   #sfondo {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
   }
 
   .contenitoreImmagine {
-    padding: 20px;
-    border-radius: 10px;
-    height: auto;
-    position: relative;
+      padding: 20px;
+      border-radius: 10px;
+      height: auto;
   }
 
   section[style="margin-top: 70px;"] {
-    height: 40px;
+      height: 40px;
   }
 
+  /* Aggiungi questo stile per rendere l'immagine responsive */
+  .luca {
+    height: 150px;
+    width: auto; /* Imposta la larghezza automatica per mantenere l'aspetto proporzionato */
+    margin-top: 20px; /* Sposta l'immagine in alto */
+    margin-right: 20px; /* Sposta l'immagine a destra */
+    float: right; /* Consente all'immagine di rimanere a destra */
+    max-width: 50%; /* Imposta la larghezza massima al 50% del contenitore */
+}
+  }
+
+  /* Aggiungi questo stile per far funzionare il float anche su dispositivi mobili */
   .row-reverse {
-    flex-direction: row;
+      flex-direction: row;
   }
 
   /* Stile per la colonna sinistra (testo) */
   .col-md-6:nth-child(1) {
-    width: 100%;
+      width: 100%;
   }
 
   /* Stile per la colonna destra (immagine) */
   .col-md-6:nth-child(2) {
-    display: block;
-    position: absolute;
-    top: 20px; /* Sposta l'immagine verso il basso */
-    right: 20px; /* Sposta l'immagine verso sinistra */
+      display: block;
   }
+
 }
+
+
+
+
