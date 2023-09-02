@@ -36,63 +36,75 @@
     margin-left: 10px;
   }
 
-  
+  /* Aggiungi qui le classi e gli ID mancanti per la pagina di galleria mobile */
 
-
-
-/*ELEMENTI PAGINA*/
-
-    .galleria {
-      font-size: 18px;
-    }
-  
-    .btn-red {
-      padding: 10px 40px;
-      font-size: 16px;
-    }
-  
-    .carta, .img-thumbnail {
-      width: 100%; /* Riempi larghezza del contenitore */
-      height: auto; /* Altezza proporzionale */
-      max-width: 250px;
-      max-height: 350px;
-      margin: 10px auto; /* Margine superiore e inferiore, centrato orizzontalmente */
-    }
-  
-    .posizione {
-      position: static;
-      display: block;
-      margin-top: 20px;
-    }
-  
-    .galleria {
-      margin-top: 20px;
-      font-size: 36px;
-      width: auto;
-    }
-  
-    .lavori {
-      font-size: 48px;
-    }
-  
-    .overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.7);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 999;
-    }
-  
-    .enlarged-image {
-      max-width: 95%;
-      max-height: 95%;
-      object-fit: contain;
-      cursor: pointer;
-    }
+  /* Classe per il titolo "GALLERIA" */
+  .galleria {
+    font-size: 18px;
   }
-  
+
+  /* Classe per il pulsante "CONTATTAMI" */
+  .btn-red {
+    padding: 10px 40px;
+    font-size: 16px;
+  }
+
+  /* Classe per le immagini nella galleria */
+  .carta, .img-thumbnail {
+    width: 100%; /* Riempi larghezza del contenitore */
+    height: auto; /* Altezza proporzionale */
+    max-width: 250px;
+    max-height: 350px;
+    margin: 10px auto; /* Margine superiore e inferiore, centrato orizzontalmente */
+  }
+
+  /* Classe per l'elemento con la classe "posizione" */
+  .posizione {
+    position: static;
+    display: block;
+    margin-top: 20px;
+  }
+
+  /* Classe per il titolo "GALLERIA" */
+  .galleria {
+    margin-top: 20px;
+    font-size: 36px;
+    width: auto;
+  }
+
+  /* Classe per il titolo "LAVORI PREFERITI" */
+  .lavori {
+    font-size: 48px;
+  }
+
+  /* Classe per l'overlay */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+
+  /* Classe per l'immagine ingrandita */
+  .enlarged-image {
+    max-width: 95%;
+    max-height: 95%;
+    object-fit: contain;
+    cursor: pointer;
+  }
+
+  /* Classe per la banner su dispositivi mobili */
+.banner {
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  max-height: 300px; /* Imposta l'altezza massima desiderata */
+}
+
+}
