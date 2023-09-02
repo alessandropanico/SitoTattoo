@@ -52,7 +52,7 @@
   }
 
   #immagineProfilo {
-      height: 150px;
+      height: 200px;
       width: auto;
       margin-top: 20px; /* Sposta l'immagine in alto */
       margin-right: 20px; /* Sposta l'immagine a destra */
@@ -60,8 +60,8 @@
   }
 
   .btn-scopri {
-      font-size: 16px;
-      padding: 10px 20px;
+    font-size: 20px;
+    padding: 12px 40px;
       margin-top: 20px;
   }
 

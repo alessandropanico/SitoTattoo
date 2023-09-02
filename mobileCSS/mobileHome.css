@@ -121,7 +121,7 @@
     /* Stile per il pulsante di invio su WhatsApp */
     #inviaButton {
         margin-top: 20px;
-        font-size: 16px;
-        padding: 10px 20px;
+        font-size: 20px;
+        padding: 12px 40px;
     }
 }
