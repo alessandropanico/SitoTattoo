@@ -104,7 +104,8 @@
   width: 100%;
   height: auto;
   z-index: -1;
-  max-height: 300px; /* Imposta l'altezza massima desiderata */
+  margin-top: 500px;
+  max-height: 500px; /* Imposta l'altezza massima desiderata */
 }
 
 }
