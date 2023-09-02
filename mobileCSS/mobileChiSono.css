@@ -46,10 +46,12 @@
   }
 
   .testo {
-      font-size: 14px;
-      text-align: justify;
-      padding: 10px;
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px;
+    overflow-wrap: break-word; /* Il testo va a capo dopo un certo numero di caratteri */
   }
+  
 
   #immagineProfilo {
       height: 200px;
