@@ -49,8 +49,8 @@
     font-size: 14px;
     text-align: justify;
     padding: 10px;
-    max-width: 20ch; /* Il testo va a capo dopo 20 caratteri (circa) */
-  }
+    word-wrap: break-word
+    }
   
 
   #immagineProfilo {
