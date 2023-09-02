@@ -112,9 +112,15 @@
   .galleria {
     font-size: 36px;
     color: rgb(0, 0, 0);
-    background-color: red;
+    background-color: red; /* Colore di sfondo per il testo della galleria */
     font-family: 'Gasoek One', sans-serif;
     width: 100%;
+    position: absolute; /* Imposta il posizionamento assoluto sulla galleria */
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px; /* Aggiunto padding per il testo della galleria */
+    z-index: 10; /* Imposta uno z-index superiore rispetto al banner */
   }
 
   /* Classe per la banner su dispositivi mobili */
@@ -123,6 +129,8 @@
     height: auto;
     z-index: -10;
     max-height: 300px; /* Imposta l'altezza massima desiderata */
-    margin-top: 100px; /* Aggiunto margine sopra il banner */
+    margin-top: 120px; /* Aggiunto margine sopra il banner */
+    position: relative; /* Imposta il posizionamento relativo sul banner */
+
   }
 }
