@@ -68,7 +68,7 @@
     width: 100%; /* Riempi larghezza del contenitore */
     height: auto; /* Altezza proporzionale */
     max-width: 250px;
-    max-height: 350px;
+    max-height: 400px;
     margin: 10px auto; /* Margine superiore e inferiore, centrato orizzontalmente */
   }
 
