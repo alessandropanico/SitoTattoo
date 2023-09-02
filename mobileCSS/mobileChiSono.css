@@ -43,6 +43,8 @@
       text-align: left; /* Allineamento a sinistra */
       margin-top: 20px;
   }
+
+
   .testo {
     font-size: 14px;
     text-align: justify;
@@ -84,8 +86,8 @@
       height: auto;
   }
 
-  section[style="margin-top: 70px;"] {
-      height: 40px;
+  section{
+      margin-top: 40px;
   }
 
 

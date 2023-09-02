@@ -114,8 +114,8 @@
     }
 
     /* Stile per la sezione margin-top */
-    section[style="margin-top: 70px;"] {
-        height: 40px; /* Riduci l'altezza della sezione */
+    section{
+        margin-top: 40px;
     }
 
     /* Stile per il pulsante di invio su WhatsApp */
