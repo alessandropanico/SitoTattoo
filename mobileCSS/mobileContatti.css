@@ -42,7 +42,7 @@
 
     /* Stile per il titolo "CONTATTI" */
     .contatti {
-        margin-top: 300px;
+        margin-top: 400px;
         font-family: Russo one;
         font-size: 40px;
         color: black;
@@ -68,6 +68,10 @@
         font-size: 30px; /* Riduci la dimensione del carattere */
         padding: 20px; /* Aggiusta il padding per adattarsi al contenuto */
         text-align: center; /* Allinea il testo al centro */
-        margin: 10px; /* Aggiusta il margine */
+        margin: 0 auto; /* Centra orizzontalmente */
+        position: absolute; /* Imposta il posizionamento assoluto */
+        top: 50%; /* Sposta l'elemento verso il basso del 50% rispetto al contenitore genitore */
+        transform: translateY(-50%); /* Rimuovi la metà dell'altezza dell'elemento dal suo posizionamento iniziale per centrarlo verticalmente */
     }
+    
 }

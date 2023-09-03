@@ -107,7 +107,7 @@
     right: 0;
     padding: 20px; /* Aggiunto padding per il testo della galleria */
     z-index: 10; /* Imposta uno z-index superiore rispetto al banner */
-    background-size: auto 50%; /* Imposta la larghezza del background come auto e l'altezza al 50% */
+    background-size: auto 30%; /* Imposta la larghezza del background come auto e l'altezza al 50% */
 
   }
 
