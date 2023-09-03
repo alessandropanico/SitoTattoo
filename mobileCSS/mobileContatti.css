@@ -38,6 +38,7 @@
 
     /* Stile per il titolo "CONTATTI" */
     .contatti {
+        margin-top: 200px;
         font-family: Russo one;
         font-size: 40px;
         color: black;
@@ -55,5 +56,14 @@
         width: 100%; /* Fai sì che la mappa riempia tutto il contenitore */
         height: 300px; /* Regola l'altezza della mappa */
         margin-top: 20px;
+    }
+
+    .box {
+        width: auto; /* Imposta la larghezza su automatica */
+        height: auto; /* Imposta l'altezza su automatica */
+        font-size: 40px; /* Riduci la dimensione del carattere */
+        padding: 20px; /* Aggiusta il padding per adattarsi al contenuto */
+        text-align: center; /* Allinea il testo al centro */
+        margin: 10px; /* Aggiusta il margine */
     }
 }
