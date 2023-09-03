@@ -105,9 +105,9 @@
     margin-top: 200px;
     left: 0;
     right: 0;
-    padding: 20px; /* Aggiunto padding per il testo della galleria */
+    padding: 10px; /* Aggiunto padding per il testo della galleria */
     z-index: 10; /* Imposta uno z-index superiore rispetto al banner */
-    height: 80px;    
+    height: 60px;    
   }
 
   /* Classe per la banner su dispositivi mobili */
