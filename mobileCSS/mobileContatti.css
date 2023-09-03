@@ -65,7 +65,7 @@
     .box {
         width: 80%; /* Imposta la larghezza al 80% della larghezza del contenitore genitore */
         height: auto; /* Imposta l'altezza su automatica */
-        font-size: 30px; /* Riduci la dimensione del carattere */
+        font-size: 40px; /* Riduci la dimensione del carattere */
         padding: 20px; /* Aggiusta il padding per adattarsi al contenuto */
         text-align: center; /* Allinea il testo al centro */
         margin: 10px; /* Aggiusta il margine */
