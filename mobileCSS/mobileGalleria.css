@@ -107,7 +107,7 @@
     right: 0;
     padding: 20px; /* Aggiunto padding per il testo della galleria */
     z-index: 10; /* Imposta uno z-index superiore rispetto al banner */
-    height: 50px;    
+    height: 150px;    
   }
 
   /* Classe per la banner su dispositivi mobili */
