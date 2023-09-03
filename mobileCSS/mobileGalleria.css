@@ -53,7 +53,7 @@
   /* Classe per le immagini nella galleria */
   .carta, .img-thumbnail {
     width: 100%; /* Riempi larghezza del contenitore */
-    max-width: 300px; /* Altezza proporzionale */
+    max-width: 250px; /* Altezza proporzionale */
     min-width: auto;
     margin: 10px auto; /* Margine superiore e inferiore, centrato orizzontalmente */
   }
@@ -102,7 +102,7 @@
     font-family: 'Gasoek One', sans-serif;
     width: 100%;
     position: absolute; /* Imposta il posizionamento assoluto sulla galleria */
-    margin-top: 300px;
+    margin-top: 200px;
     left: 0;
     right: 0;
     padding: 20px; /* Aggiunto padding per il testo della galleria */
@@ -113,7 +113,7 @@
   /* Classe per la banner su dispositivi mobili */
   .banner {
     width: 100%;
-    max-height: 300px; /* Modifica l'altezza massima per dispositivi mobili */
+    max-height: 200px; /* Modifica l'altezza massima per dispositivi mobili */
     z-index: -10;
     margin-top: 130px; /* Aggiunto margine sopra il banner */
     position: relative; /* Imposta il posizionamento relativo sul banner */
