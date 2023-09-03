@@ -68,6 +68,6 @@
         font-size: 40px; /* Riduci la dimensione del carattere */
         padding: 20px; /* Aggiusta il padding per adattarsi al contenuto */
         text-align: center; /* Allinea il testo al centro */
-        margin: 10px; /* Aggiusta il margine */
+        margin: 0 auto; /* Imposta il margine orizzontale su 0 e il margine verticale su automatico per centrare l'elemento */
     }
 }
