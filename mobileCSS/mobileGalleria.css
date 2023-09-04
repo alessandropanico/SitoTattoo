@@ -53,7 +53,7 @@
   /* Classe per le immagini nella galleria */
   .carta, .img-thumbnail {
     width: 100%; /* Riempi larghezza del contenitore */
-    max-height: 250px; /* Altezza proporzionale */
+    max-height: 200px; /* Altezza proporzionale */
     min-width: auto;
     margin: 10px auto; /* Margine superiore e inferiore, centrato orizzontalmente */
   }
@@ -118,4 +118,7 @@
     margin-top: 130px; /* Aggiunto margine sopra il banner */
     position: relative; /* Imposta il posizionamento relativo sul banner */
   }
+
+
+  
 }
