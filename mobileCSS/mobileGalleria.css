@@ -50,16 +50,19 @@
     background-color: black;
   }
 
-  /* Classe per le immagini nella galleria */
- 
+  /* Classe per le immagini nella galleria 
+  .carta, .img-thumbnail {
+    width: 100%; 
+    max-height: 200px; 
+    min-width: auto;
+    margin: 10px auto; 
+  } */
 
   .carta, .img-thumbnail {
-    width: 200px; /* Larghezza fissa */
-    height: 200px; /* Altezza fissa */
-    margin: 10px auto; /* Margine superiore e inferiore, centrato orizzontalmente */
-    margin: 10px auto; /* Margine superiore e inferiore, centrato orizzontalmente */
-
-}
+    width: calc(50% - 20px); /* Larghezza del 50% meno il margine */
+    padding-top: calc(50% - 20px); /* Altezza proporzionale (1:1) meno il margine */
+    margin: 10px; /* Margine su tutti i lati */
+  }
 
 
   /* Classe per l'elemento con la classe "posizione" */
