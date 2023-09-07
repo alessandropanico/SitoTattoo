@@ -56,12 +56,21 @@
     max-height: 150px; 
     min-width: auto;
     margin: 10px auto; 
-  } */
+  } 
 
   .carta{
     width: 200px;
     height: 200px;
     margin: 10px auto;
+  }*/
+
+  .carta {
+    width: 100%; /* Imposta la larghezza al 100% per occupare l'intera larghezza del dispositivo mobile */
+    max-width: none; /* Rimuovi la larghezza massima impostata precedentemente */
+    height: auto; /* Imposta l'altezza su automatica per mantenere l'aspetto originale */
+    margin: 10px auto; /* Puoi mantenere il margine se necessario */
+  
+    /* Altri stili specifici per le immagini su dispositivi mobili, se necessario */
   }
 
   /*prova*
