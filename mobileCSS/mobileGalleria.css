@@ -59,10 +59,11 @@
   } */
 
   .carta, .img-thumbnail {
-    width: calc(50% - 20px); /* Larghezza del 50% meno il margine */
-    padding-top: calc(50% - 20px); /* Altezza proporzionale (1:1) meno il margine */
-    margin: 10px; /* Margine su tutti i lati */
-  }
+    max-width: 200px; /* Larghezza fissa */
+    max-height: 200px; /* Altezza fissa */
+    margin: 10px auto; /* Margine superiore e inferiore, centrato orizzontalmente */
+
+}
 
 
   /* Classe per l'elemento con la classe "posizione" */
