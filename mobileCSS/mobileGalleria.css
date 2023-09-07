@@ -50,19 +50,15 @@
     background-color: black;
   }
 
-  /* Classe per le immagini nella galleria 
+  /* Classe per le immagini nella galleria */
   .carta, .img-thumbnail {
     width: 100%; 
-    max-height: 250px; 
+    max-height: 150px; 
     min-width: auto;
     margin: 10px auto; 
-  } */
+  } 
 
-  .carta, .img-thumbnail {
-    width: calc(50% - 20px); /* Larghezza del 50% meno il margine */
-    height: calc(50% - 20px); /* Altezza del 50% meno il margine */
-    margin: 10px; /* Margine su tutti i lati */
-  }
+
 
 
   /*prova*
