@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
         console.log("Email:", emailCliente);
         console.log("Cellulare:", cellulareCliente);
 
+        
         const message = `Nuova richiesta di informazioni sul tatuaggio:
         Soggetto Tattoo: ${soggettoTattoo},
         Parte del Corpo: ${parteCorpo},

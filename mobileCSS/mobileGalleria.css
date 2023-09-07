@@ -53,10 +53,10 @@
   /* Classe per le immagini nella galleria */
   .carta, .img-thumbnail {
     width: 100%; /* Riempi larghezza del contenitore */
-    max-height: 200px; /* Altezza proporzionale */
+    padding-top: 100%; /* Altezza proporzionale (1:1) */
     min-width: auto;
     margin: 10px auto; /* Margine superiore e inferiore, centrato orizzontalmente */
-  }
+}
 
   /* Classe per l'elemento con la classe "posizione" */
   .posizione {
